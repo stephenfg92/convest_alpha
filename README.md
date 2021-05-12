@@ -63,7 +63,7 @@ CREATE TABLE fechamentos
 
 Observe que o campo ticker da tabela acoes(ações) está diretamente associado aos campos id, nome e habilitado.
 
-De acordo com a necessidade do cliente, uma terceita tabela contendo apenas o campo ticker e uma referência a tabela de ações poderá ser criada, desassociando estas duas variáveis.
+De acordo com a necessidade do cliente, uma terceira tabela contendo apenas o campo ticker e uma referência a tabela de ações poderá ser criada, desassociando estas duas variáveis.
 
 ### Acoplamento dos sistemas
 
