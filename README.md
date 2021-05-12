@@ -24,7 +24,7 @@ Se estiver em um ambiente Linux, use o seguinte comando: `source venv/Scripts/ac
 
 Para instalar as dependências necessárias, navegue até a pasta raíz do projeto e use o comando `pip install -r requirements.txt`
 
-## Intruções para uso
+## Instruções para uso
 
 Para utilizar o programa, substitua o valor da variável API_KEY, localizada em Src/constants.py, pelo valor de sua chave pessoal da API Alpha Advantage. Essa variável deve obrigatoriamente ser uma string, portanto a chave deverá ser escrita entre aspas.
 
