@@ -1,4 +1,4 @@
-# Teste proposto pela Convet Investimentos
+# Teste proposto pela Convest Investimentos
 
 Esse repositório contém o código fonte do programa desenvolvido afim de cumprir o teste proposto pela Convest Investimentos. Este repositório serve como forma de avaliação para minha possível contratação.
 
