@@ -38,7 +38,7 @@ Caso não haja um banco de dados pronto para receber as informações da API, o 
 
 ### Modelagem de dados
 
-O banco de dados criado pelo programa usa o seguinte schema:
+O banco de dados criado pelo programa usa o seguinte modelo:
 
 ```
 CREATE TABLE acoes
@@ -67,13 +67,13 @@ De acordo com a necessidade do cliente, uma terceita tabela contendo apenas o ca
 
 ### Acoplamento dos sistemas
 
-O programa é fortemente acoplado ao banco de dados. Isto é, faz referência direta aos nomes das tabelas e campos do banco de dados. Deste modo, qualquer alteração na modelagem de dados levará a problemas na execução do código.
+O programa é fortemente acoplado ao banco de dados. Isto é, ele faz referência direta aos nomes das tabelas e campos do banco de dados. Deste modo, qualquer alteração na modelagem de dados levará a problemas na execução do código.
 
 Esse problema pode ser resolvido usando algum sistema ORM, ou criando rotinas que considerem que os nomes das tabelas e campos sejam variáveis. Essas soluções podem ser facilmente implementadas de acordo com as necessidades do cliente.
 
 ### Orientação a objeto
 
-O paradigma usado no desenvolvimento do programa pode ser facilmente substituído de procedural para orientado a objeto, bastando encapsular o conteúdo dos scrips em classes. Essa solução pode ser implementada de acordo com as necessidades do cliente.
+O paradigma usado no desenvolvimento do programa pode ser facilmente substituído de procedural para orientado a objeto, bastando encapsular o conteúdo dos scripts em classes. Essa solução pode ser implementada de acordo com as necessidades do cliente.
 
 ### Considerações finais.
 
