@@ -1,7 +1,7 @@
 from pathlib import Path
 import os
 
-API_KEY = "KHU49FD8HOHZII9L"
+API_KEY = "API_KEY"
 
 SYMBOL_LIST = ['B3SA3.SAO', 'PETR4.SAO']
 
